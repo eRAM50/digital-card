@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4B5054;
+            color: #FFD700;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+
+        }
+        .container {
+            text-align: center;
+            max-width: 300px;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #FFD700;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 10px;
+        }
+        p {
+            color: #66FCF1;
+            margin-bottom: 30px;
+        }
+        .link-button {
+            display: block;
+            background-color: #333;
+            color: #66FCF1;
+            text-decoration: none;
+            padding: 15px 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .link-button:hover {
+            background-color: #4CAF50;
+            color: black;
+            font-weight: bold   ;
+        }   
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="webcard.png" alt="Profile Picture">
+        <h1>Evan Ramirez</h1>
+        <p>Future AI expert and Tech Enthusiast</p> 
+        <a href="https://github.com" class="link-button" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" class="link-button" target="_blank">LinkedIn</a>
+        <a href="mailto:evanramirez50@gmail.com" class="link-button">Email Me</a>
+    </div>
+</body>
+</html>
